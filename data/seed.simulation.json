@@ -1,0 +1,54 @@
+{
+  "source": "simulation",
+  "asset": {
+    "id": "lab-01",
+    "name": "Prototype Lab Hydro-Twin"
+  },
+  "sensors": [
+    {
+      "id": "pin",
+      "name": "Tekanan Masuk",
+      "value": 2.45,
+      "unit": "bar",
+      "qualityFlag": "valid"
+    },
+    {
+      "id": "pout",
+      "name": "Tekanan Keluar",
+      "value": 1.87,
+      "unit": "bar",
+      "qualityFlag": "valid"
+    },
+    {
+      "id": "flow",
+      "name": "Debit Air",
+      "value": 5.2,
+      "unit": "L/s",
+      "qualityFlag": "valid"
+    },
+    {
+      "id": "rpm",
+      "name": "Putaran Turbin",
+      "value": 1245,
+      "unit": "rpm",
+      "qualityFlag": "valid"
+    },
+    {
+      "id": "power",
+      "name": "Daya Keluaran",
+      "value": 108,
+      "unit": "W",
+      "qualityFlag": "valid"
+    },
+    {
+      "id": "turbidity",
+      "name": "Kekeruhan",
+      "value": 4.7,
+      "unit": "NTU",
+      "qualityFlag": "drift_suspected"
+    }
+  ],
+  "modelMetrics": {
+    "status": "not_tested"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "project": "Hydro-Twin",
+  "readiness": {
+    "antigravity_frontend": "ready_after_revision",
+    "proposal_ui_figures": "ready_with_simulation_caption",
+    "research_results": "not_ready_until_experiment"
+  },
+  "data_provenance_values": [
+    "simulation",
+    "experiment",
+    "live"
+  ],
+  "mandatory_fields": {
+    "sensor": [
+      "id",
+      "name",
+      "value",
+      "unit",
+      "timestamp",
+      "quality_flag",
+      "calibration_status"
+    ],
+    "prediction": [
+      "horizon_seconds",
+      "value",
+      "confidence",
+      "healthy_lower",
+      "healthy_upper",
+      "model_version",
+      "source"
+    ],
+    "alarm": [
+      "id",
+      "severity",
+      "parameter",
+      "reason",
+      "duration_seconds",
+      "quality_flag",
+      "status",
+      "operator_validation"
+    ]
+  },
+  "terminology": {
+    "pressure_drop": "Beda Tekanan",
+    "prediction": "Prediksi Kondisi",
+    "residual": "Penyimpangan dari Kondisi Sehat",
+    "data_quality": "Kualitas Data",
+    "inspection_needed": "Perlu Inspeksi"
+  }
+}
